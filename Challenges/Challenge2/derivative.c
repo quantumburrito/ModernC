@@ -13,16 +13,16 @@ double f(double x) {
     return numerator / denominator;
 }
 
-// Function will be sin(x) for now
+// Function will be cos(x) for now
 double F(double x) {
 
-    return sin(x);
+    return cos(x);
 }
 
 
 int main(void) {
-    int low = 0;
-    int high = 10;
+    int low = -4;
+    int high = 4;
     double resolution = 0.01;
     int arrayLength = (int)((high-low)/resolution);
     
